@@ -1,0 +1,27 @@
+{
+  "name": "tucked.js",
+  "description": "An accordion plugin (another one)",
+  "version": "0.1.0",
+  "main": "dist/tucked.min.js",
+  "homepage": "http://iamhexcoder.github.io/tucked/",
+  "authors": [
+    "Shaun M. Baer", "Shaun Baer <shaun.baer@gmail.com>"
+  ],
+  "keywords": [
+    "accordion",
+    "toggle",
+    "tuck",
+    "collapse"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamhexcoder/tucked.git"
+  },
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7"
+  }
+}
