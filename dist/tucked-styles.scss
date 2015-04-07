@@ -1,0 +1,24 @@
+// TUCKIT.JS
+// ============================================================
+
+// Basic Variables
+
+$tucked-class: "tucked";
+$untucked-target-class: "target-untucked";
+$tucked-icon-class: "tucked-icon";
+$untucked-icon-class: "untucked-icon";
+
+
+// Bare Bones Minimum styles
+
+.#{$tucked-class} {
+  display: none;
+}
+
+.#{$untucked-target-class} {
+  .#{$tucked-icon-class} {display: none;}
+  .#{$untucked-icon-class} {display: block;}
+}
+
+.#{$untucked-icon-class} {display: none;}
+
