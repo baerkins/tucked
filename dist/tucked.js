@@ -24,9 +24,7 @@
  *  $('a.tuck-toggle').tuckit();
  *
  */
-
-
-(function ( $ ) {
+(function( $, window, document, undefined ) {
   $.fn.tuckit = function(options) {
     // Options
     var settings = $.extend({
@@ -59,4 +57,5 @@
 
   };
 
-}( jQuery ));
+}( jQuery, window, document ));
+

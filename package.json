@@ -1,0 +1,20 @@
+{
+  "name": "tucked",
+  "version": "1.0.0",
+  "description": "Another accordion...with ARIA helpers and drag queen references.",
+  "main": "dist/tucked.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamhexcoder/tucked.git"
+  },
+  "keywords": [
+    "accordion",
+    "jquery"
+  ],
+  "author": "Shaun M. Baer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamhexcoder/tucked/issues"
+  },
+  "homepage": "https://github.com/iamhexcoder/tucked"
+}
